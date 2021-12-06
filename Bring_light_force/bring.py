@@ -1,8 +1,10 @@
 import os 
 import csv
+#python3 -m pip install Pillow
+#python3 -m pip install SimpleImage
 
-from simpleimage import SimpleImage
-
+#from simpleimage import SimpleImage
+import simpleimage
 # Final visualization Dimensions
 
 VISUALIZATION_WIDTH = 1512
@@ -379,5 +381,5 @@ def average(lst): #GOOD
     avg = (sum(lst) / len(lst))
     return avg
 
-if __name__ ==  "__main__":
-    main()
+# if __name__ ==  "__main__":
+#     main()
