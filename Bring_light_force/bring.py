@@ -3,7 +3,7 @@ import csv
 #python3 -m pip install Pillow
 #python3 -m pip install SimpleImage
 
-#from simpleimage import SimpleImage
+from simpleimage import SimpleImage
 import simpleimage
 # Final visualization Dimensions
 
@@ -139,12 +139,12 @@ def main():
     #import image all places
     # Show Original
 
-    all_places = SimpleImage('/home/Bring_light_force/image_with_all_populated_places.png') # green
-    #all_places.show()
+    all_places = SimpleImage('image_with_all_populated_places.png') # green
+    all_places.show()
     #print(all_places.width, all_places.height)
 
     #import image most cities
-    most_places = SimpleImage('/home/Bring_light_force/image_with_most_populated_places.png') #blue
+    most_places = SimpleImage('image_with_most_populated_places.png') #blue
     #most_places.show()
     #print(most_places.width, most_places.height)
 
